@@ -9,4 +9,7 @@ A collection of useful Logisim Evolution libraries
   - SN74LS07
   - SN74LS09
   - SN74LS12
-
+* FairchildDM81 - Fairchild DM81LSxx logic series
+  - DM81LS95A - Octal tri-state buffer
+  - DM81LS96A - Inverting octal tri-state buffer
+  - DM81LS97A - Dual quad tri-state buffer
