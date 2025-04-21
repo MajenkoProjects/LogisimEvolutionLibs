@@ -1093,4 +1093,148 @@
     <wire from="(330,210)" to="(380,210)"/>
     <wire from="(330,280)" to="(380,280)"/>
   </circuit>
+  <circuit name="SN74LS38">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="SN74LS38"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="145" y="30"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="165" y="30"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="65" y="85"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="85" y="30"/>
+      <rect fill="none" height="50" rx="10" ry="10" stroke="#000000" width="149" x="36" y="35"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="45" y="30"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="105" y="85"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="6" text-anchor="middle" x="170" y="78">GND</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="112" y="59">SN74LS38</text>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="145" y="85"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="165" y="85"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="85" y="85"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="45" y="85"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="125" y="30"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="105" y="30"/>
+      <path d="M36,50 Q50,60 36,70" fill="none" stroke="#000000"/>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="65" y="30"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="6" text-anchor="middle" x="49" y="42">Vcc</text>
+      <rect fill="none" height="5" stroke="#000000" width="10" x="125" y="85"/>
+      <circ-anchor facing="north" x="50" y="30"/>
+      <circ-port dir="in" pin="160,160" x="50" y="90"/>
+      <circ-port dir="in" pin="160,200" x="70" y="90"/>
+      <circ-port dir="in" pin="160,240" x="110" y="90"/>
+      <circ-port dir="in" pin="160,280" x="130" y="90"/>
+      <circ-port dir="in" pin="160,320" x="150" y="30"/>
+      <circ-port dir="in" pin="160,360" x="130" y="30"/>
+      <circ-port dir="in" pin="160,400" x="90" y="30"/>
+      <circ-port dir="in" pin="160,440" x="70" y="30"/>
+      <circ-port dir="out" pin="380,140" x="90" y="90"/>
+      <circ-port dir="out" pin="380,220" x="150" y="90"/>
+      <circ-port dir="out" pin="380,300" x="170" y="30"/>
+      <circ-port dir="out" pin="380,380" x="110" y="30"/>
+    </appear>
+    <comp lib="0" loc="(160,160)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A1"/>
+    </comp>
+    <comp lib="0" loc="(160,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="B1"/>
+    </comp>
+    <comp lib="0" loc="(160,240)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A2"/>
+    </comp>
+    <comp lib="0" loc="(160,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="B2"/>
+    </comp>
+    <comp lib="0" loc="(160,320)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A3"/>
+    </comp>
+    <comp lib="0" loc="(160,360)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="B3"/>
+    </comp>
+    <comp lib="0" loc="(160,400)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A4"/>
+    </comp>
+    <comp lib="0" loc="(160,440)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="B4"/>
+    </comp>
+    <comp lib="0" loc="(280,140)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(280,220)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(280,300)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(280,380)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(380,140)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y1"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="true"/>
+    </comp>
+    <comp lib="0" loc="(380,220)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y2"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="true"/>
+    </comp>
+    <comp lib="0" loc="(380,300)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y3"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="true"/>
+    </comp>
+    <comp lib="0" loc="(380,380)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y4"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="true"/>
+    </comp>
+    <comp lib="1" loc="(250,180)" name="AND Gate"/>
+    <comp lib="1" loc="(250,260)" name="AND Gate"/>
+    <comp lib="1" loc="(250,340)" name="AND Gate"/>
+    <comp lib="1" loc="(250,420)" name="AND Gate"/>
+    <comp lib="1" loc="(330,140)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(330,220)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(330,300)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(330,380)" name="Controlled Buffer"/>
+    <wire from="(160,160)" to="(200,160)"/>
+    <wire from="(160,200)" to="(200,200)"/>
+    <wire from="(160,240)" to="(200,240)"/>
+    <wire from="(160,280)" to="(200,280)"/>
+    <wire from="(160,320)" to="(200,320)"/>
+    <wire from="(160,360)" to="(200,360)"/>
+    <wire from="(160,400)" to="(200,400)"/>
+    <wire from="(160,440)" to="(200,440)"/>
+    <wire from="(250,180)" to="(320,180)"/>
+    <wire from="(250,260)" to="(320,260)"/>
+    <wire from="(250,340)" to="(320,340)"/>
+    <wire from="(250,420)" to="(320,420)"/>
+    <wire from="(280,140)" to="(310,140)"/>
+    <wire from="(280,220)" to="(310,220)"/>
+    <wire from="(280,300)" to="(310,300)"/>
+    <wire from="(280,380)" to="(310,380)"/>
+    <wire from="(320,150)" to="(320,180)"/>
+    <wire from="(320,230)" to="(320,260)"/>
+    <wire from="(320,310)" to="(320,340)"/>
+    <wire from="(320,390)" to="(320,420)"/>
+    <wire from="(330,140)" to="(380,140)"/>
+    <wire from="(330,220)" to="(380,220)"/>
+    <wire from="(330,300)" to="(380,300)"/>
+    <wire from="(330,380)" to="(380,380)"/>
+  </circuit>
 </project>
