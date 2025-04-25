@@ -9,9 +9,19 @@ A collection of useful Logisim Evolution libraries
   - SN74LS07
   - SN74LS09
   - SN74LS12
-  - SN74LS38 - Quad 2-input positive NAND buffers with open collector outputs
-  - SN74LS393 - Dual 4-bit binary counter
-  - SN74LS373 - Octal transparent D-type latch with tri-state outputs
+  - SN74LS15
+  - SN74LS16
+  - SN74LS17
+  - SN74LS22
+  - SN74LS23
+  - SN74LS25
+  - SN74LS26
+  - SN74LS28
+  - SN74LS30
+  - SN74LS33
+  - SN74LS38
+  - SN74LS393
+  - SN74LS373
 * FairchildDM81 - Fairchild DM81LSxx logic series
   - DM81LS95A - Octal tri-state buffer
   - DM81LS96A - Inverting octal tri-state buffer
